@@ -1,0 +1,52 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: 'Arial', sans-serif; /* Updated font family */
+}
+
+header .container {
+  max-width: 1200px;
+  margin: 0 auto;
+  font-size: 20px; /* Updated font size */
+}
+
+header .container a {
+  color: #333333; /* Updated font color */
+}
+
+header .container a:hover {
+  color: #000099;
+}
+
+header .container button {
+  @apply bg-custom-blue text-white;
+}
+
+.modal-container {
+  width: 80%;
+  max-width: 600px;
+  height: 70%;
+  max-height: 500px;
+}
+
+/* Additional text style changes */
+body {
+  font-size: 16px; /* Default font size for body */
+  color: #444444; /* Default font color for body */
+}
+
+h1, h2, h3, h4, h5, h6 {
+  font-family: 'Georgia', serif; /* Different font family for headings */
+  color: #222222; /* Font color for headings */
+}
+
+p {
+  font-size: 18px; /* Font size for paragraphs */
+  line-height: 1.6; /* Line height for better readability */
+  color: #555555; /* Font color for paragraphs */
+}
